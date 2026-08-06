@@ -92,13 +92,13 @@ Stack: `Java` `Object-oriented programming` `Game logic` `UI`
 ## Stack
 
 ```text
-Languages       Java · C · TypeScript · HTML · CSS
-Frontend        React
-Backend         Node.js
-Data            PostgreSQL · Prisma
-Infrastructure  Cloudflare · Docker · Render
-Tools           Git · VS Code · Eclipse
-Concepts        Data structures · OOP · debugging · system design
+Languages       Java · C++ · Python · TypeScript · JavaScript
+                Dart · SQL · R · HTML/CSS
+Frameworks      React · Next.js · Node.js · Spring Boot
+                FastAPI · Flutter
+Data / infra    PostgreSQL · SQLite · Docker · Cloudflare Workers
+                Cloudflare R2 · Render
+Tools           Git · GitHub · REST APIs · IntelliJ IDEA · VS Code
 ```
 
 ## What I'm learning
