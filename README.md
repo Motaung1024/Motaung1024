@@ -13,8 +13,12 @@
 
 ```text
 $ cat profile.txt
-Joshua Motaung. Computer science and ML/AI student in Norman, Oklahoma.
-I build products people actually use, then measure whether they work.
+name      Joshua Motaung
+role      Software engineer · CS + ML/AI · Norman, Oklahoma
+shipped   Morabaraba: 7,600+ players, 255k+ matches, designed and run end to end
+building  Flow: AI agents that apply to jobs through real hiring systems
+owns      product, game engine, backend, infrastructure, data
+approach  ship it, measure it, keep what works
 ```
 
 ## Real products, real users
