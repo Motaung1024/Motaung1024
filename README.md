@@ -17,11 +17,13 @@ Joshua Motaung. Computer science and ML/AI student in Norman, Oklahoma.
 I build products people actually use, then measure whether they work.
 ```
 
-## Now
+## Real products, real users
 
-- **Running [Morabaraba](https://morabaraba.dev)**, a live online version of the Southern African strategy game, built solo.
-- **Building Flow**, an AI product whose agents find jobs that fit a person and apply for them.
-- Practising algorithms on [NeetCode](https://github.com/Motaung1024/neetcode-submissions).
+**Morabaraba** · [morabaraba.dev](https://morabaraba.dev)<br>
+The Southern African strategy game, built solo and live online. Play the computer, a friend, or real people, with leaderboards and tournaments.
+
+**Flow by Autonlabs** · [flow.autonlabs.co](https://flow.autonlabs.co)<br>
+An AI job-hunting service. Its agents find jobs that fit you and apply to them for you, through companies' own hiring systems.
 
 ## Morabaraba in numbers
 
