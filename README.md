@@ -74,12 +74,23 @@ Stack: `Python` `FastAPI` `PostgreSQL` `Docker`
 
 ## Stack
 
-```text
-Languages       TypeScript · JavaScript · Python · Java · C++ · SQL · Dart · R
-Frameworks      React · Vite · Next.js · Node.js · FastAPI · Django · Spring Boot · Flutter
-Data / infra    PostgreSQL · Supabase · Vercel · Docker · Render · Cloudflare Workers
-AI              LLM agents · browser automation · self-play training
-```
+**Languages**
+
+<a href="#stack"><img src="https://skillicons.dev/icons?i=ts,js,py,java,cpp,dart,r,html,css" alt="TypeScript, JavaScript, Python, Java, C++, Dart, R, HTML, CSS" /></a>
+
+**Frameworks**
+
+<a href="#stack"><img src="https://skillicons.dev/icons?i=react,vite,nextjs,nodejs,fastapi,django,spring,flutter" alt="React, Vite, Next.js, Node.js, FastAPI, Django, Spring Boot, Flutter" /></a>
+
+**Data and infrastructure**
+
+<a href="#stack"><img src="https://skillicons.dev/icons?i=postgres,supabase,prisma,vercel,docker,cloudflare,workers" alt="PostgreSQL, Supabase, Prisma, Vercel, Docker, Cloudflare, Cloudflare Workers" /></a>
+
+**Tools**
+
+<a href="#stack"><img src="https://skillicons.dev/icons?i=git,github,vscode,idea" alt="Git, GitHub, VS Code, IntelliJ IDEA" /></a>
+
+Also: Render, SQL, LLM agents, browser automation and self-play training.
 
 ## How I work
 
