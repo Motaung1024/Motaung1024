@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://morabaraba.dev"><b>play morabaraba</b></a> ·
   <a href="mailto:motaungjosh1024@gmail.com">email</a> ·
   <a href="https://www.linkedin.com/in/joshua-motaung-348668278/">linkedin</a> ·
   <a href="#projects">projects</a>
@@ -12,122 +13,85 @@
 
 ```text
 $ cat profile.txt
-I'm a computer science and ML/AI student
-based in Norman, Oklahoma
-interested in products, systems, AI tools, and game logic
+Joshua Motaung. Computer science and ML/AI student in Norman, Oklahoma.
+I build products people actually use, then measure whether they work.
 ```
 
-## About
+## Now
 
-I build practical software and learn by working on real problems.
+- **Running [Morabaraba](https://morabaraba.dev)**, a live online version of the Southern African strategy game, built solo.
+- **Building Flow**, an AI product whose agents find jobs that fit a person and apply for them.
+- Practising algorithms on [NeetCode](https://github.com/Motaung1024/neetcode-submissions).
 
-My current projects cover three different areas:
+## Morabaraba in numbers
 
-- Versiontrail: tracking the work that happens during AI-assisted coding.
-- Crossbuy: making cross-border shopping clearer for customers in Lesotho and the SACU region.
-- Morabaraba: turning a Southern African strategy board game into a digital game.
+Launched August 2026. Figures as of November 2026.
 
-I like software with clear rules, understandable data, and interfaces that explain what is happening.
+| | |
+| ---: | :--- |
+| **7,600+** | player accounts |
+| **255,000+** | matches played |
+| **146,000+** | online games between real people |
+| **6.6 million** | moves played online |
+| **9,000+ hours** | of online play |
+| **3,249** | online matches on the busiest day |
+| **48** | tournaments run |
 
 ## Projects
 
-### Versiontrail
-
-[github.com/motaungjosh1024/versiontrail](https://github.com/motaungjosh1024/versiontrail)
-
-Versiontrail is a development history tool for AI-assisted coding. It records prompts, AI responses, file changes, checkpoints, tests, and decisions in one timeline.
-
-The goal is to make the development process easier to inspect after the work is finished.
-
-Current work:
-
-- recording each development turn;
-- storing file diffs and checkpoints;
-- comparing different approaches to the same task;
-- restoring an earlier working state;
-- connecting decisions to the code they changed.
-
-Stack: `TypeScript` `React` `PostgreSQL` `Prisma` `Docker` `Git`
-
----
-
-### Crossbuy
-
-[github.com/motaungjosh1024/crossbuy](https://github.com/motaungjosh1024/crossbuy)
-
-Crossbuy is a cross-border shopping and delivery platform for the SACU region. It is designed to help customers in Lesotho buy from South African retailers with a clearer final price.
-
-The checkout needs to account for product cost, exchange rates, customs duty, VAT, and delivery instead of leaving the customer to calculate these separately.
-
-Current work:
-
-- calculating a fully-landed price in local currency;
-- showing where each part of the price comes from;
-- modeling products, orders, payments, and delivery;
-- designing a backend that can grow without becoming difficult to operate;
-- using an existing regional transport network for last-mile delivery.
-
-Stack: `React` `Node.js` `PostgreSQL` `Cloudflare Workers` `R2` `Render` `Git`
-
----
-
 ### Morabaraba
 
-[github.com/motaungjosh1024/morabaraba](https://github.com/motaungjosh1024/morabaraba)
+**[morabaraba.dev](https://morabaraba.dev)** · source private
 
-Morabaraba is a Southern African strategy board game. This project focuses on building the game as clear, testable software.
+A full digital version of Morabaraba, the traditional Southern African board game, played against the computer, a friend on the same phone, or real people online.
 
-The main challenge is not only drawing the board. The program also needs to understand legal moves, captures, mill formation, turn order, and the different phases of a game.
+- **Computer opponent** that searches ahead in a Web Worker and keeps thinking on the player's time. It also learns openings from real games, and I tune it with self-play and A/B tests.
+- **Live online play** with matchmaking, a move clock, and results that both players' devices must agree on before they count.
+- **Accounts, leaderboards, friends and tournaments**, with no sign-up wall: a name and a PIN.
+- **Installable web app** that works on phones as a home-screen app.
 
-Current work:
+Stack: `TypeScript` `React` `Vite` `Supabase` `PostgreSQL` `Vercel` `Python`
 
-- representing board positions and connections;
-- validating moves against the rules;
-- tracking pieces and player turns;
-- handling captures and mill formation;
-- keeping the game state separate from the user interface.
+---
 
-Stack: `Java` `Object-oriented programming` `Game logic` `UI`
+### Versiontrail
+
+[github.com/Motaung1024/versiontrail](https://github.com/Motaung1024/versiontrail)
+
+Like GitHub, but for the process of building, not just the result. Versiontrail records the prompts, AI responses, file changes, checkpoints, tests and decisions of AI-assisted coding in one timeline, so the work can be inspected and restored afterwards.
+
+Stack: `TypeScript` `Fastify` `Prisma` `PostgreSQL`
+
+---
+
+### CrossBuy
+
+[github.com/Motaung1024/crossbuy](https://github.com/Motaung1024/crossbuy)
+
+A parcel-forwarding platform that helps customers in Lesotho buy from South African retailers at a clear final price, with exchange rates, customs duty, VAT and delivery worked out up front.
+
+Stack: `Python` `FastAPI` `PostgreSQL` `Docker`
 
 ## Stack
 
 ```text
-Languages       Java · C++ · Python · TypeScript · JavaScript
-                Dart · SQL · R · HTML/CSS
-Frameworks      React · Next.js · Node.js · Spring Boot
-                FastAPI · Flutter
-Data / infra    PostgreSQL · SQLite · Docker · Cloudflare Workers
-                Cloudflare R2 · Render
-Tools           Git · GitHub · REST APIs · IntelliJ IDEA · VS Code
+Languages       TypeScript · JavaScript · Python · Java · C++ · SQL · Dart · R
+Frameworks      React · Vite · Next.js · Node.js · FastAPI · Django · Spring Boot · Flutter
+Data / infra    PostgreSQL · Supabase · Vercel · Docker · Render · Cloudflare Workers
+AI              LLM agents · browser automation · self-play training
 ```
 
-## What I'm learning
-
-I am focusing on the technical details behind the products I build.
-
-- **Machine learning and AI** — embeddings, vector search, retrieval-augmented generation, evaluation, prompt design, inference workflows, and responsible model use.
-- **Data structures and algorithms** — hash tables, trees, graphs, recursion, sorting, searching, asymptotic analysis, and selecting data structures based on access patterns.
-- **Backend and systems design** — API boundaries, relational modeling, transactions, indexes, caching, queues, background jobs, observability, and failure handling.
-- **Distributed application fundamentals** — consistency, idempotency, retries, rate limits, authentication, and reliable state changes across services.
-- **Robotics and game systems** — finite-state machines, event loops, coordinate systems, collision rules, pathfinding, deterministic simulation, and testable game state.
-
-## How I build
+## How I work
 
 ```text
-1. Understand the problem before choosing the technology.
-2. Write down the rules, states, inputs, and failure cases.
-3. Build a small version that can be run and tested.
-4. Keep the data model and the user interface easy to understand.
-5. Change the design when real behavior teaches something new.
+Evidence over opinion   I test changes and keep only what measurably works.
+Ship carefully          Real people use what I build, so I check before I release.
+Respect users           Collect only what is needed, and keep it anonymous where possible.
 ```
-
-## Outside code
-
-I enjoy robotics, game development, and learning from people who approach problems differently. I am especially interested in software that connects technical ideas to real communities and everyday needs.
 
 ## Contact
 
-If you want to talk about software, systems, AI tools, games, or a project idea:
+Happy to talk about games, AI agents, real-time systems, or a project idea.
 
 - Email: [motaungjosh1024@gmail.com](mailto:motaungjosh1024@gmail.com)
 - LinkedIn: [linkedin.com/in/joshua-motaung-348668278](https://www.linkedin.com/in/joshua-motaung-348668278/)
