@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://joshuamotaung.dev"><b>portfolio</b></a> ·
   <a href="https://morabaraba.dev"><b>play morabaraba</b></a> ·
   <a href="mailto:motaungjosh1024@gmail.com">email</a> ·
   <a href="https://www.linkedin.com/in/joshua-motaung-348668278/">linkedin</a> ·

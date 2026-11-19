@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Joshua Motaung, software engineer</title>
-  <desc id="desc">An animated terminal that types out who Joshua is, current projects, Morabaraba player numbers and Joshua's values, beside a Morabaraba board where a mill forms.</desc>
+  <desc id="desc">An animated terminal that types out who Joshua is, current projects, Morabaraba player numbers and Joshua's values, beside a Morabaraba board, drawn as in the game, where red forms a mill.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0c0c0e" />
@@ -88,50 +88,32 @@
       </rect>
     </g>
 
-    <!-- Morabaraba board -->
-    <circle cx="970" cy="200" r="190" fill="url(#glow)" />
-    <g stroke="#d8a354" stroke-opacity=".5" stroke-width="1.5" fill="none">
-      <rect x="850" y="80" width="240" height="240" rx="2" />
-      <rect x="890" y="120" width="160" height="160" rx="2" />
-      <rect x="930" y="160" width="80" height="80" rx="2" />
-      <path d="M970 80V160M970 240V320M850 200H930M1010 200H1090" />
-      <path d="M850 80L930 160M1090 80L1010 160M850 320L930 240M1090 320L1010 240" />
+    <!-- Morabaraba board: the same geometry and colours as morabaraba.dev (700x700 board space). -->
+    <circle cx="971" cy="188" r="190" fill="url(#glow)" />
+    <g transform="translate(845 62) scale(.36)">
+      <rect width="700" height="700" rx="22" fill="#efe6d4" />
+      <g fill="none" stroke="#4a3b2a" stroke-width="6">
+        <rect x="50" y="50" width="600" height="600" />
+        <rect x="160" y="160" width="380" height="380" />
+        <rect x="260" y="260" width="180" height="180" />
+        <path d="M350 50V650M50 350H650M50 50L160 160M650 50L540 160M650 650L540 540M50 650L160 540" />
+      </g>
+      <g fill="#4a3b2a"><circle cx="50" cy="50" r="9" /><circle cx="350" cy="50" r="9" /><circle cx="650" cy="50" r="9" /><circle cx="650" cy="350" r="9" /><circle cx="650" cy="650" r="9" /><circle cx="350" cy="650" r="9" /><circle cx="50" cy="650" r="9" /><circle cx="50" cy="350" r="9" /><circle cx="160" cy="160" r="9" /><circle cx="350" cy="160" r="9" /><circle cx="540" cy="160" r="9" /><circle cx="540" cy="350" r="9" /><circle cx="540" cy="540" r="9" /><circle cx="350" cy="540" r="9" /><circle cx="160" cy="540" r="9" /><circle cx="160" cy="350" r="9" /><circle cx="260" cy="260" r="9" /><circle cx="350" cy="260" r="9" /><circle cx="440" cy="260" r="9" /><circle cx="440" cy="350" r="9" /><circle cx="440" cy="440" r="9" /><circle cx="350" cy="440" r="9" /><circle cx="260" cy="440" r="9" /><circle cx="260" cy="350" r="9" /><circle cx="350" cy="350" r="9" /></g>
+      <!-- Pieces are placed in turn, red first; red completes a mill on the top row. -->
+      <g stroke="#2c2118" stroke-width="5">
+      <circle cx="50" cy="50" r="30" fill="#c0392b" opacity="0"><set attributeName="opacity" to="1" begin="1s" fill="freeze" /></circle>
+      <circle cx="540" cy="350" r="30" fill="#2980b9" opacity="0"><set attributeName="opacity" to="1" begin="1.8s" fill="freeze" /></circle>
+      <circle cx="650" cy="50" r="30" fill="#c0392b" opacity="0"><set attributeName="opacity" to="1" begin="2.6s" fill="freeze" /></circle>
+      <circle cx="350" cy="540" r="30" fill="#2980b9" opacity="0"><set attributeName="opacity" to="1" begin="3.4s" fill="freeze" /></circle>
+      <circle cx="260" cy="440" r="30" fill="#c0392b" opacity="0"><set attributeName="opacity" to="1" begin="4.2s" fill="freeze" /></circle>
+      <circle cx="350" cy="260" r="30" fill="#2980b9" opacity="0"><set attributeName="opacity" to="1" begin="5s" fill="freeze" /></circle>
+      <circle cx="350" cy="50" r="30" fill="#c0392b" opacity="0"><set attributeName="opacity" to="1" begin="6.2s" fill="freeze" /></circle>
+      </g>
+      <circle cx="50" cy="50" r="44" fill="none" stroke="#f1c40f" stroke-width="8" opacity="0"><animate attributeName="opacity" values="0;1;.35;1" keyTimes="0;.2;.6;1" dur="1.6s" begin="6.5s" repeatCount="indefinite" /></circle>
+      <circle cx="350" cy="50" r="44" fill="none" stroke="#f1c40f" stroke-width="8" opacity="0"><animate attributeName="opacity" values="0;1;.35;1" keyTimes="0;.2;.6;1" dur="1.6s" begin="6.5s" repeatCount="indefinite" /></circle>
+      <circle cx="650" cy="50" r="44" fill="none" stroke="#f1c40f" stroke-width="8" opacity="0"><animate attributeName="opacity" values="0;1;.35;1" keyTimes="0;.2;.6;1" dur="1.6s" begin="6.5s" repeatCount="indefinite" /></circle>
     </g>
-    <g fill="#d8a354" fill-opacity=".45">
-      <circle cx="850" cy="80" r="3" /><circle cx="970" cy="80" r="3" /><circle cx="1090" cy="80" r="3" />
-      <circle cx="850" cy="200" r="3" /><circle cx="1090" cy="200" r="3" />
-      <circle cx="850" cy="320" r="3" /><circle cx="970" cy="320" r="3" /><circle cx="1090" cy="320" r="3" />
-      <circle cx="890" cy="120" r="3" /><circle cx="970" cy="120" r="3" /><circle cx="1050" cy="120" r="3" />
-      <circle cx="890" cy="200" r="3" /><circle cx="1050" cy="200" r="3" />
-      <circle cx="890" cy="280" r="3" /><circle cx="970" cy="280" r="3" /><circle cx="1050" cy="280" r="3" />
-      <circle cx="930" cy="160" r="3" /><circle cx="970" cy="160" r="3" /><circle cx="1010" cy="160" r="3" />
-      <circle cx="930" cy="200" r="3" /><circle cx="1010" cy="200" r="3" />
-      <circle cx="930" cy="240" r="3" /><circle cx="970" cy="240" r="3" /><circle cx="1010" cy="240" r="3" />
-    </g>
-
-    <!-- Pieces are placed in turn, amber against cream. -->
-    <g stroke="#0c0c0e" stroke-width="2">
-      <circle cx="850" cy="80" r="12" fill="#ffb000" opacity="0"><set attributeName="opacity" to="1" begin="1s" fill="freeze" /></circle>
-      <circle cx="1050" cy="200" r="12" fill="#f3ead7" opacity="0"><set attributeName="opacity" to="1" begin="1.8s" fill="freeze" /></circle>
-      <circle cx="1090" cy="80" r="12" fill="#ffb000" opacity="0"><set attributeName="opacity" to="1" begin="2.6s" fill="freeze" /></circle>
-      <circle cx="930" cy="240" r="12" fill="#f3ead7" opacity="0"><set attributeName="opacity" to="1" begin="3.4s" fill="freeze" /></circle>
-      <circle cx="890" cy="280" r="12" fill="#ffb000" opacity="0"><set attributeName="opacity" to="1" begin="4.2s" fill="freeze" /></circle>
-      <circle cx="970" cy="120" r="12" fill="#f3ead7" opacity="0"><set attributeName="opacity" to="1" begin="5s" fill="freeze" /></circle>
-      <circle cx="1010" cy="160" r="12" fill="#f3ead7" opacity="0"><set attributeName="opacity" to="1" begin="5.6s" fill="freeze" /></circle>
-    </g>
-
-    <!-- The third amber piece completes a mill along the top row. -->
-    <path d="M850 80H1090" stroke="#ffb000" stroke-width="6" stroke-linecap="round" filter="url(#soft)" opacity="0">
-      <animate attributeName="opacity" values="0;.9;.35;.9" keyTimes="0;.2;.6;1" dur="2.4s" begin="6.6s" repeatCount="indefinite" />
-    </path>
-    <path d="M850 80H1090" stroke="#ffb000" stroke-width="2" stroke-dasharray="240" stroke-dashoffset="240">
-      <animate attributeName="stroke-dashoffset" from="240" to="0" begin="6.4s" dur=".5s" fill="freeze" />
-    </path>
-    <circle cx="970" cy="80" r="12" fill="#ffb000" stroke="#0c0c0e" stroke-width="2" opacity="0">
-      <set attributeName="opacity" to="1" begin="6.2s" fill="freeze" />
-      <animate attributeName="r" values="18;12" begin="6.2s" dur=".3s" fill="freeze" />
-    </circle>
-    <text x="970" y="340" fill="#8a7a5c" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="13" text-anchor="middle" opacity="0">mill formed  ·  morabaraba.dev
+    <text x="971" y="338" fill="#8a7a5c" font-family="SFMono-Regular, Menlo, Consolas, &apos;Liberation Mono&apos;, &apos;Courier New&apos;, monospace" font-size="13" text-anchor="middle" opacity="0">mill formed  ·  morabaraba.dev
       <set attributeName="opacity" to="1" begin="6.9s" fill="freeze" />
     </text>
   </g>
