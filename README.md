@@ -14,9 +14,9 @@
 ```text
 $ cat profile.txt
 name      Joshua Motaung
-role      Software engineer · CS + ML/AI · Norman, Oklahoma
+role      Software engineer · CS + ML/AI · United States
 shipped   Morabaraba: 7,600+ players, 255k+ matches, designed and run end to end
-building  Flow: AI agents that apply to jobs through real hiring systems
+shipped   Flow: AI agents that apply to jobs, live on the web and the App Store
 owns      product, game engine, backend, infrastructure, data
 approach  ship it, measure it, keep what works
 ```
@@ -26,7 +26,7 @@ approach  ship it, measure it, keep what works
 **Morabaraba** · [morabaraba.dev](https://morabaraba.dev)<br>
 The Southern African strategy game, built solo and live online. Play the computer, a friend, or real people, with leaderboards and tournaments.
 
-**Flow by Autonlabs** · [flow.autonlabs.co](https://flow.autonlabs.co)<br>
+**Flow by Autonlabs** · [flow.autonlabs.co](https://flow.autonlabs.co) · [App Store](https://apps.apple.com/app/flow-io/id6787564220)<br>
 An AI job-hunting service. Its agents find jobs that fit you and apply to them for you, through companies' own hiring systems.
 
 ## Morabaraba in numbers
